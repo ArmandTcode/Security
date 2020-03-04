@@ -10,5 +10,4 @@ public class TemplarApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TemplarApplication.class, args);
 	}
-
 }
