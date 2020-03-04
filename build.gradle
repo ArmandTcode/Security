@@ -19,6 +19,9 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	// https://mvnrepository.com/artifact/at.favre.lib/hkdf
+	compile group: 'at.favre.lib', name: 'hkdf', version: '0.4.3'
+
 }
 
 test {
