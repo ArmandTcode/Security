@@ -6,6 +6,7 @@ plugins {
 
 group = 'tb.spring'
 version = '0.0.1-SNAPSHOT'
+
 sourceCompatibility = '1.8'
 
 repositories {
@@ -19,6 +20,9 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+	compile group: 'mysql', name: 'mysql-connector-java'
 }
 
 test {
