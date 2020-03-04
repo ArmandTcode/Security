@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"tb.spring.controller"})
+@ComponentScan(basePackages = {"tb.spring.config","tb.spring.controller"})
 public class TemplarApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(TemplarApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TemplarApplication.class, args);
+    }
 
 }
