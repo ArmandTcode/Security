@@ -16,8 +16,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@Component
 // It checks if the request has a valid JWT token
+@Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 
     @Autowired
