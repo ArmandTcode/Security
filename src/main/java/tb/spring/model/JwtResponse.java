@@ -1,4 +1,4 @@
-package tb.spring;
+package tb.spring.model;
 
 import java.io.Serializable;
 
