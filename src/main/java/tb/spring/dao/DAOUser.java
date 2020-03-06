@@ -1,4 +1,4 @@
-package tb.spring.model;
+package tb.spring.dao;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -32,5 +32,4 @@ public class DAOUser {
     public void setPassword(String password) {
         this.password = password;
     }
-
 }
