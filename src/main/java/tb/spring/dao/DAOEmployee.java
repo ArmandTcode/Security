@@ -14,7 +14,6 @@ public class DAOEmployee {
     @Column
     private String name;
     @Column
-    @JsonIgnore
     private String designation;
 
     public long getEmpIdd() {
